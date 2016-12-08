@@ -4,7 +4,7 @@ Use openlayers 3 with vuejs
 # Usage
 Use it like this in your `App.vue` file:
 
-```
+```vue
 <template>
  <div id="app">
    <ol-map :lat="51.22" :lon="7.60"></ol-map>
@@ -24,7 +24,7 @@ export default {
 ```
 
 And then like this in your `main.js` file:
-```
+```javascript
 import Vue from 'vue'
 import App from './App'
 
