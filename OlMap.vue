@@ -3,8 +3,8 @@
 </template>
 
 <script>
-let ol = require('openlayers')
-require('openlayers/dist/ol.css')
+const ol = require('openlayers');
+require('openlayers/dist/ol.css');
 
 export default {
   name: 'ol-map',
@@ -59,8 +59,3 @@ export default {
 }
 
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>
